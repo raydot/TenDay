@@ -1,0 +1,4 @@
+#.gitignore
+
+/Users/dave/Documents/TenDay/orig-php-tenday-files/config.php
+/Users/dave/Documents/TenDayorig-php-tenday-files/error_log
