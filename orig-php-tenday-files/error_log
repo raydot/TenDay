@@ -1,0 +1,298 @@
+[29-Mar-2008 17:01:47] PHP Parse error:  syntax error, unexpected ';' in /home/kanterro/public_html/davekanter/tenday/weather.php on line 8
+[30-Mar-2008 11:32:23] PHP Parse error:  syntax error, unexpected ';' in /home/kanterro/public_html/davekanter/tenday/index.php on line 37
+[30-Mar-2008 11:33:29] PHP Catchable fatal error:  Object of class DOMElement could not be converted to string in /home/kanterro/public_html/davekanter/tenday/index.php on line 37
+[30-Mar-2008 11:37:36] PHP Fatal error:  Call to undefined method DOMElement::getElementsByName() in /home/kanterro/public_html/davekanter/tenday/index.php on line 35
+[30-Mar-2008 11:38:17] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/kanterro/public_html/davekanter/tenday/index.php on line 37
+[30-Mar-2008 11:43:26] PHP Parse error:  syntax error, unexpected '*', expecting ')' in /home/kanterro/public_html/davekanter/tenday/index.php on line 35
+[30-Mar-2008 11:43:38] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/kanterro/public_html/davekanter/tenday/index.php on line 37
+[30-Mar-2008 11:44:06] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/kanterro/public_html/davekanter/tenday/index.php on line 36
+[30-Mar-2008 11:57:02] PHP Catchable fatal error:  Object of class DOMXPath could not be converted to string in /home/kanterro/public_html/davekanter/tenday/index.php on line 34
+[30-Mar-2008 12:01:10] PHP Catchable fatal error:  Object of class DOMElement could not be converted to string in /home/kanterro/public_html/davekanter/tenday/index.php on line 41
+[30-Mar-2008 12:08:52] PHP Parse error:  syntax error, unexpected '<' in /home/kanterro/public_html/davekanter/tenday/index.php on line 46
+[07-Apr-2008 17:46:34] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 9
+[07-Apr-2008 17:46:50] PHP Warning:  SimpleXMLElement::__construct() [<a href='function.SimpleXMLElement---construct'>function.SimpleXMLElement---construct</a>]: Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 9
+[07-Apr-2008 17:46:50] PHP Warning:  SimpleXMLElement::__construct() [<a href='function.SimpleXMLElement---construct'>function.SimpleXMLElement---construct</a>]: http://xoap.weather.com/weather/local/10011?dayf=10 in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 9
+[07-Apr-2008 17:46:50] PHP Warning:  SimpleXMLElement::__construct() [<a href='function.SimpleXMLElement---construct'>function.SimpleXMLElement---construct</a>]: ^ in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 9
+[07-Apr-2008 17:46:50] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php:9
+Stack trace:
+#0 /home/kanterro/public_html/davekanter/tenday/tendayrd2.php(9): SimpleXMLElement->__construct('http://xoap.wea...')
+#1 {main}
+  thrown in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 9
+[07-Apr-2008 17:58:02] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 12
+[07-Apr-2008 18:34:02] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 14
+[07-Apr-2008 18:46:00] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 14
+[07-Apr-2008 18:46:20] PHP Parse error:  syntax error, unexpected '}' in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 19
+[07-Apr-2008 18:55:27] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 19
+[07-Apr-2008 18:56:15] PHP Warning:  simplexml_load_file(http://www.davekanter.com/tenday/samplex.xml) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 10
+[07-Apr-2008 18:56:15] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://www.davekanter.com/tenday/samplex.xml&quot; in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 10
+[07-Apr-2008 18:56:15] PHP Fatal error:  Could not read file! in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 11
+[07-Apr-2008 19:22:36] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 25
+[07-Apr-2008 19:33:18] PHP Parse error:  syntax error, unexpected $end in /home/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 38
+[08-Apr-2008 15:17:16] PHP Warning:  include(config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 8
+[08-Apr-2008 15:17:16] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 8
+[08-Apr-2008 15:17:16] PHP Warning:  include(opendb.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 9
+[08-Apr-2008 15:17:16] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'opendb.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 9
+[08-Apr-2008 15:20:48] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'kanterro_tendayd'@'localhost' (using password: YES) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 5
+[08-Apr-2008 15:21:36] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'kanterro_tendayd'@'localhost' (using password: YES) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 5
+[08-Apr-2008 15:21:49] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'kanterro_tendayd'@'localhost' (using password: YES) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 5
+[08-Apr-2008 15:22:11] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'kanterro_tendayd'@'localhost' (using password: YES) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 5
+[08-Apr-2008 15:30:58] PHP Parse error:  syntax error, unexpected $end in /home/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 35
+[08-Apr-2008 16:07:47] PHP Fatal error:  Call to undefined function  vardump() in /home/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 32
+[08-Apr-2008 16:09:04] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 32
+[08-Apr-2008 16:13:59] PHP Parse error:  syntax error, unexpected T_INC, expecting ']' in /home/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 28
+[08-Apr-2008 17:26:31] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting ',' or ';' in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 44
+[09-Apr-2008 08:25:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 40
+[09-Apr-2008 08:27:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 40
+[09-Apr-2008 08:53:26] PHP Parse error:  syntax error, unexpected ')' in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 54
+[09-Apr-2008 09:04:40] PHP Parse error:  syntax error, unexpected '{' in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 59
+[09-Apr-2008 09:15:24] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 82
+[09-Apr-2008 09:15:24] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 82
+[09-Apr-2008 09:15:25] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 82
+[09-Apr-2008 09:21:54] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 89
+[09-Apr-2008 09:23:44] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 90
+[09-Apr-2008 09:28:48] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 90
+[09-Apr-2008 09:29:19] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 91
+[09-Apr-2008 09:29:46] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 91
+[09-Apr-2008 09:32:06] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 91
+[09-Apr-2008 09:32:40] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 91
+[09-Apr-2008 09:37:23] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 91
+[09-Apr-2008 09:38:39] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 91
+[09-Apr-2008 09:40:08] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dk'@'localhost' (using password: YES) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[09-Apr-2008 09:41:25] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dk'@'localhost' (using password: YES) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[09-Apr-2008 09:41:28] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dk'@'localhost' (using password: YES) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[09-Apr-2008 09:41:44] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 91
+[17-Apr-2008 08:00:04] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[18-Apr-2008 22:54:01] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 17
+[18-Apr-2008 22:54:19] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 17
+[18-Apr-2008 22:54:21] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 17
+[19-Apr-2008 09:16:18] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 19
+[19-Apr-2008 09:16:33] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 19
+[19-Apr-2008 09:16:37] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 19
+[19-Apr-2008 09:17:02] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 19
+[19-Apr-2008 09:17:04] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 19
+[19-Apr-2008 09:17:26] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 22
+[19-Apr-2008 09:19:28] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 19
+[19-Apr-2008 11:24:13] PHP Parse error:  syntax error, unexpected '{' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 49
+[19-Apr-2008 11:24:33] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 59
+[19-Apr-2008 11:32:37] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 45
+[19-Apr-2008 11:50:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 89
+[19-Apr-2008 11:54:37] PHP Parse error:  syntax error, unexpected '>' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 99
+[19-Apr-2008 12:05:47] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 118
+[19-Apr-2008 12:14:20] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 106
+[19-Apr-2008 12:14:20] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 106
+[19-Apr-2008 12:14:43] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 106
+[19-Apr-2008 12:16:00] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 106
+[19-Apr-2008 12:21:17] PHP Parse error:  syntax error, unexpected '[' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 99
+[19-Apr-2008 12:21:56] PHP Parse error:  syntax error, unexpected '[' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 99
+[19-Apr-2008 12:22:04] PHP Parse error:  syntax error, unexpected '[' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 99
+[19-Apr-2008 12:22:33] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 100
+[19-Apr-2008 12:23:07] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/kanterro/public_html/davekanter/tenday/tendaycheker01.php on line 101
+[20-Apr-2008 17:30:04] PHP Parse error:  syntax error, unexpected ';' in /home/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 23
+[21-Apr-2008 08:32:29] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 32
+[21-Apr-2008 08:55:56] PHP Parse error:  syntax error, unexpected ';' in /home/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 129
+[21-Apr-2008 08:57:05] PHP Parse error:  syntax error, unexpected '[' in /home/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 119
+[21-Apr-2008 08:57:20] PHP Parse error:  syntax error, unexpected ';' in /home/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 130
+[21-Apr-2008 09:14:39] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:22:46] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:23:05] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:24:39] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:25:29] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:35:16] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:35:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:35:19] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:46:51] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:46:53] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 09:57:23] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/kanterro/public_html/davekanter/tenday/opendb.php on line 6
+[21-Apr-2008 10:15:23] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 85
+[21-Apr-2008 10:15:35] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 85
+[21-Apr-2008 10:15:36] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 85
+[21-Apr-2008 10:15:37] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 85
+[21-Apr-2008 10:16:50] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 85
+[21-Apr-2008 10:16:51] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 85
+[21-Apr-2008 10:16:52] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 85
+[21-Apr-2008 10:17:02] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 85
+[06-May-2008 08:00:02] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[07-May-2008 08:00:10] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[07-May-2008 11:04:47] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[07-May-2008 11:13:41] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[16-May-2008 08:00:17] PHP Warning:  simplexml_load_file(http://xoap.weather.com/weather/local/20015?dayf=10) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: HTTP request failed!  in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[16-May-2008 08:00:17] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://xoap.weather.com/weather/local/20015?dayf=10&quot; in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[16-May-2008 08:00:17] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[02-Sep-2008 08:00:17] PHP Warning:  simplexml_load_file(http://xoap.weather.com/weather/local/94116?dayf=10) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: HTTP request failed!  in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[02-Sep-2008 08:00:17] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://xoap.weather.com/weather/local/94116?dayf=10&quot; in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[02-Sep-2008 08:00:18] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[07-Oct-2008 08:00:16] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[07-Oct-2008 08:00:16] PHP Warning:  simplexml_load_file(http://xoap.weather.com/weather/local/10011?dayf=10) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[07-Oct-2008 08:00:16] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://xoap.weather.com/weather/local/10011?dayf=10&quot; in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[07-Oct-2008 08:00:16] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[10-Nov-2008 08:00:09] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[10-Nov-2008 08:00:12] PHP Warning:  simplexml_load_file(http://xoap.weather.com/weather/local/60301?dayf=10) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[10-Nov-2008 08:00:12] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://xoap.weather.com/weather/local/60301?dayf=10&quot; in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[10-Nov-2008 08:00:12] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[21-Dec-2008 08:00:16] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[21-Dec-2008 08:00:16] PHP Warning:  simplexml_load_file(http://xoap.weather.com/weather/local/10011?dayf=10) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[21-Dec-2008 08:00:16] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://xoap.weather.com/weather/local/10011?dayf=10&quot; in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 15
+[21-Dec-2008 08:00:16] PHP Warning:  Invalid argument supplied for foreach() in /home/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[07-Jul-2009 08:00:04] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[08-Jul-2009 08:00:03] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[09-Jul-2009 08:00:02] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[10-Jul-2009 08:00:03] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[11-Jul-2009 08:00:02] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[11-Jul-2009 08:23:41] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:23:41] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[11-Jul-2009 08:26:49] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:26:49] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[11-Jul-2009 08:28:39] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:28:39] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 23
+[11-Jul-2009 08:30:17] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:30:17] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 24
+[11-Jul-2009 08:36:48] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:36:48] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 24
+[11-Jul-2009 08:37:48] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:37:48] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 24
+[11-Jul-2009 08:38:41] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:38:41] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 24
+[11-Jul-2009 08:38:43] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:38:43] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 24
+[11-Jul-2009 08:39:14] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:39:14] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 24
+[11-Jul-2009 08:39:16] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:39:17] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 24
+[11-Jul-2009 08:46:02] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:46:02] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 26
+[11-Jul-2009 08:46:04] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:46:04] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 26
+[11-Jul-2009 08:52:39] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:52:40] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 26
+[11-Jul-2009 08:53:13] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:53:13] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 27
+[11-Jul-2009 08:55:16] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 08:55:16] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 27
+[11-Jul-2009 08:57:14] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 09:00:45] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[11-Jul-2009 09:00:45] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 29
+[11-Jul-2009 09:01:51] PHP Warning:  Zend Optimizer for PHP 5.2.x cannot be found (expected at '/usr/local/Zend/lib/Optimizer_TS-2.5.10/php-5.2.x/ZendOptimizer.so') - try reinstalling the Zend Optimizer in Unknown on line 0
+[29-Apr-2014 15:39:47 America/Denver] PHP Notice:  Use of undefined constant mysql_close - assumed 'mysql_close' in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 95
+[29-Apr-2014 15:40:29 America/Denver] PHP Notice:  Use of undefined constant mysql_close - assumed 'mysql_close' in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 95
+[29-Apr-2014 15:41:43 America/Denver] PHP Warning:  simplexml_load_file(http://xoap.weather.com/weather/local/60302?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e): failed to open stream: HTTP request failed!  in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 22
+[29-Apr-2014 15:41:43 America/Denver] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://xoap.weather.com/weather/local/60302?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e&quot; in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 22
+[29-Apr-2014 15:41:43 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 27
+[29-Apr-2014 15:41:43 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 28
+[01-Aug-2014 18:39:46 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home3/kanterro/public_html/davekanter/tenday/weather.php on line 8
+[01-Aug-2014 18:40:14 America/Denver] PHP Notice:  Use of undefined constant mysql_close - assumed 'mysql_close' in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 95
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Undefined offset: 1 in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 104
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Undefined offset: 2 in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 104
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Undefined offset: 3 in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 104
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Undefined offset: 4 in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 104
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Undefined offset: 5 in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 104
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Undefined offset: 6 in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 104
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Undefined offset: 7 in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 104
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Undefined offset: 8 in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 104
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Undefined offset: 9 in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 104
+[01-Aug-2014 18:42:38 America/Denver] PHP Notice:  Use of undefined constant mysql_close - assumed 'mysql_close' in /home3/kanterro/public_html/davekanter/tenday/tendaycheker02.php on line 140
+[26-Apr-2017 13:07:32 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;link=xoap&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:07:32 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:07:32 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:07:32 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;link=xoap&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:07:32 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:07:32 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:07:32 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 29
+[26-Apr-2017 13:07:32 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 29
+[26-Apr-2017 13:07:32 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 36
+[26-Apr-2017 13:08:44 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home3/kanterro/public_html/davekanter/tenday/weather.php on line 8
+[26-Apr-2017 13:08:47 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home3/kanterro/public_html/davekanter/tenday/weather.php on line 8
+[26-Apr-2017 13:09:11 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 10
+[26-Apr-2017 13:09:11 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 10
+[26-Apr-2017 13:09:11 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 10
+[26-Apr-2017 13:09:11 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 10
+[26-Apr-2017 13:09:11 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 10
+[26-Apr-2017 13:09:11 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 10
+[26-Apr-2017 13:09:11 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 15
+[26-Apr-2017 13:09:11 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 16
+[26-Apr-2017 13:09:12 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/60302?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 22
+[26-Apr-2017 13:09:12 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 22
+[26-Apr-2017 13:09:12 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 22
+[26-Apr-2017 13:09:12 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/60302?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 22
+[26-Apr-2017 13:09:12 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 22
+[26-Apr-2017 13:09:12 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 22
+[26-Apr-2017 13:09:12 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 27
+[26-Apr-2017 13:09:12 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 28
+[26-Apr-2017 13:09:13 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/94116?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 34
+[26-Apr-2017 13:09:13 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 34
+[26-Apr-2017 13:09:13 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 34
+[26-Apr-2017 13:09:13 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/94116?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 34
+[26-Apr-2017 13:09:13 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 34
+[26-Apr-2017 13:09:13 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 34
+[26-Apr-2017 13:09:13 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 38
+[26-Apr-2017 13:09:13 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd2.php on line 39
+[26-Apr-2017 13:09:20 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:20 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:20 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:20 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:20 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:20 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:20 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 28
+[26-Apr-2017 13:09:20 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 31
+[26-Apr-2017 13:09:20 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 37
+[26-Apr-2017 13:09:29 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:29 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:29 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:29 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:29 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:29 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:29 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 24
+[26-Apr-2017 13:09:29 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 27
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/60301?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/60301?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 24
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 27
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/94116?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/94116?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 19
+[26-Apr-2017 13:09:32 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 24
+[26-Apr-2017 13:09:32 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd3.php on line 27
+[26-Apr-2017 13:09:37 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:37 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:37 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:37 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:37 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:37 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 23
+[26-Apr-2017 13:09:37 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 28
+[26-Apr-2017 13:09:37 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 31
+[26-Apr-2017 13:09:37 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd4.php on line 37
+[26-Apr-2017 13:11:24 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;link=xoap&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:11:24 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:11:24 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:11:24 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;link=xoap&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:11:24 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:11:24 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:11:24 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 29
+[26-Apr-2017 13:11:24 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 29
+[26-Apr-2017 13:11:24 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 36
+[26-Apr-2017 13:34:08 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;link=xoap&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : StartTag: invalid element name in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:34:08 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:34:08 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:34:08 America/Denver] PHP Warning:  simplexml_load_file(): http://xoap.weather.com/weather/local/10011?dayf=10&amp;link=xoap&amp;prod=xoap&amp;par=1060864033&amp;key=15847b56b7a9eb6e:1: parser error : Extra content at the end of the document in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:34:08 America/Denver] PHP Warning:  simplexml_load_file(): &lt;!doctype html&gt; in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:34:08 America/Denver] PHP Warning:  simplexml_load_file():  ^ in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 20
+[26-Apr-2017 13:34:08 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 29
+[26-Apr-2017 13:34:08 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 29
+[26-Apr-2017 13:34:08 America/Denver] PHP Notice:  Trying to get property of non-object in /home3/kanterro/public_html/davekanter/tenday/tendayrd5.php on line 36

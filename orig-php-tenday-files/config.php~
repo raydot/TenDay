@@ -1,0 +1,10 @@
+<?php
+/*
+From Fred Wilson chess, I'm not sure where I got the original!
+Ten Day DB Config File
+*/
+$dbhost = 'localhost';
+$dbuser = 'kanterro_dk';
+$dbpass = 'Y7k13Ye+';
+$dbname = 'kanterro_tendaydb';
+?>
